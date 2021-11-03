@@ -7,19 +7,19 @@ export default function Header() {
             <h1>React Search Emoji <span>&#x1F984;</span></h1>
             <p>Simple tool for search emoji with React</p>
             <p>
-                <GitHubButton
-                    href="https://github.com/born3am" data-show-count={true} data-size="large" data-text="Star" data-icon="octicon-star"  ></GitHubButton>
+
+                <GitHubButton href="https://github.com/born3am/search-emoji/archive/HEAD.zip" data-color-scheme="no-preference: light; light: light; dark: light;" data-icon="octicon-download" data-size="large" aria-label="Download born3am/search-emoji on GitHub">Download</GitHubButton>
 
                 <GitHubButton
-                    href="https://github.com/born3am" data-show-count={true}
-                    data-size="large" data-text="Fork"
-                    data-icon="octicon-repo-forked"
-                ></GitHubButton>
+                    href="https://github.com/born3am" data-color-scheme="no-preference: light; light: light; dark: light;" data-size="large" data-show-count="true" aria-label="Follow @born3am on GitHub">Follow @born3am</GitHubButton>
+
+
+
 
 
             </p>
 
 
-        </div>
+        </div >
     )
 }
