@@ -4,7 +4,7 @@ import EmojiItem from './EmojiItem';
 export default function EmojiContainer(props) {
     console.log(props);
     return (
-        <div>
+        <div style={{display: "flex", flexWrap: "wrap", width: "80%", margin: "0 auto"}}>
             {props.emojisList.map(emoji => {
                 return (
                     <EmojiItem
